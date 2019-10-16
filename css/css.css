@@ -1,0 +1,491 @@
+@font-face{
+    font-family: [FONTE];
+ src: url('https://fonts.googleapis.com/css?family=Red+Hat+Display&display=swap');
+}
+*{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    height: 120px;
+    justify-content: flex-end;
+}
+
+header ul{
+    display: flex;
+    line-height: 100px;
+    list-style: none;
+    
+    
+}
+
+header ul li{
+    margin-right: 50px;
+    font-size: 20px;
+    color:#171fcf;
+}
+
+.background{
+    background-image: url(../img/background.png);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.conteudoBranco{
+    display: flex;
+    width: 800px;
+    height: 400px;
+    background-color: white;
+}
+
+span{
+    cursor: pointer;
+    color: #13153d;
+}
+#mostra{
+    display: none;
+}
+
+#continuar{
+    display: block;
+    color: #171FCF;
+    text-decoration: #171FCF;
+    text-decoration: underline;
+}
+
+#continuar2{
+    display: block;
+    color: #171FCF;
+    text-decoration: #171FCF;
+    text-decoration: underline;
+}
+.InconteudoBranco{
+    display: flex;
+    
+}
+
+.imagemPerfil{
+    flex: 1;
+    background-image: url(../img/eu.png);
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+}
+
+.ConteudodaIMG{
+    flex-direction: column;
+    display: flex;
+    flex: 1;
+    
+}
+
+.Nome{
+    font-size: 30px;
+    padding: 0;
+    margin: 40px 0px 0px 20px;
+    color: #171FCF;
+   
+}
+
+.Estudante{
+    padding: 0px;
+    margin: -5px 0px 30px 20px;
+    color: #6970FF;
+}
+
+.hh2{
+    text-align: left;
+    padding: 0px;
+    margin: 0px 0px 0px 20px;
+    color: #171FCF;
+    font-size: 20px;
+}
+
+.hh3{
+    padding: 0px;
+    margin: 0px 0px 15px 20px;
+    color: #6970FF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.QuaseFooter{
+    display: flex;
+    justify-content: center;
+}
+
+.iconesSociais{
+    display: flex;
+    height: 80px;
+    width: 800px;
+    justify-content: center;
+    background-color: #343880;
+}
+
+.iconesSociais ul {
+    display: flex;
+    list-style: none;
+}
+
+.iconesSociais ul li{
+    margin-left: 20px;
+}
+
+.Apresentação{
+    display: flex;
+    justify-content: center;
+}
+
+.InApresentação{
+    display: flex;
+    width: 990px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+
+.InAprensetaçãoTitulo{
+    margin:100px 0px 40px 0px;
+    color: #343880;
+    font-size: 30px;
+}
+
+.InApresentaçãoConteudo{
+    color: #343880;
+    font-size: 20px;
+}
+
+.InConteudo{
+    display: flex;
+    justify-content: center;
+    width: 990px;
+    
+}
+
+.Experiências{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.InExperiências{
+    width: 990px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+
+.InAprensetaçãoTitulo{
+    display: flex;
+    justify-content: center;
+    width: 990px;
+}
+
+.esquerdo{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin-right: 80px;
+}
+
+.ano{
+    font-weight: bold;
+    display: flex;
+    font-size: 20px;
+    color: #343880;
+    margin-bottom: 10px;
+}
+
+.profisão{
+    display: flex;
+    font-size: 18px;
+    color: #6970FF;
+    
+}
+
+.direito{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.nomeEmpresa{
+    display: flex;
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #343880;
+}
+
+.DetalheEmpresa{
+    display: flex;
+    margin-left: 10px;
+    color: #6970FF;
+    font-size: 20px;
+}
+
+.Habilidades{
+    display: flex;
+    justify-content: center;
+    background-color: #343880;
+}
+
+.InHabilidade{
+    display: flex;
+    width: 990px;
+    height: 120px;
+    justify-content: center;
+}
+
+.TituloHabilidades{
+    color:white;
+    font-size: 20px;
+    line-height: 120px;
+    font-weight: 700;   
+}
+
+.roxo{
+    display: flex;
+    height: 400px;
+    background-color: #13153d;
+    justify-content: center;
+    margin-top: 1px;
+
+}
+
+.roxoIN{
+    display: flex;
+    width: 990px;
+    height: 300px;
+    flex-wrap: wrap;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+    justify-content: space-between;
+}
+
+.Roxinho{
+    display: flex;
+    height: 70px;
+    width: 400px;
+    background-color: rgb(157, 161, 228);
+    color:white;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    justify-content: center;
+    line-height: 70px;
+    font-size: 20px;
+    
+}
+
+.Especialidade{
+    display: flex;
+    justify-content: center;
+}
+.EspecilidadeIN{
+   align-items: center;
+    height: 200px;
+    width: 990px;
+    line-height: 200px;
+    justify-content: center;
+    color:#13153d;
+}
+
+.EspecialideTItulo{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.EspecialidadesCursos{
+    display: flex;
+    justify-content: center;
+}
+
+.InEspecialidadeCursos{
+    height: 200px;
+    display: flex;
+    width: 990px;
+    justify-content: center;
+    
+    align-items: center;
+}
+
+.Cursos p{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: #171FCF;
+}
+
+.Cursos{
+    margin: 30px;
+    width: 300px;
+    height: 200px;
+    color: #6970FF;
+}
+
+.Contato{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.InContato{
+    display: flex;
+    justify-content: center;
+   height: 50px;
+    line-height: 50px;
+    
+    width: 990px;
+}
+
+.ContatoText{
+    display: flex;
+    font-size: 20px;
+    font-weight: 700;
+    color: #13153d;
+}
+
+.QuaseFooter{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.QuadradodoQuaseFooter{
+    width: 990px;
+  
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.Informações1{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.Informações2{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.emailtextButton{
+    display: flex;
+    flex-direction: column;
+}
+
+.emailtextButton .assunto{
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 300px;
+}
+.emailtextButton textarea{
+    width: 300px;
+    margin-left: 10px;
+}
+
+.nomeEemail{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.nomeEemail input{
+    margin-left: 10px;
+}
+
+.botao{
+ 
+    height: 50px;
+    background-color: #13153d;
+    margin-top: 20px;
+    color:white;
+}
+
+.Matheus{
+    font-size: 30px;
+    color: #13153d;
+    margin-bottom: 10px;
+}
+
+.EstudanteTI{
+    font-size: 20px;
+    color: #13153d;
+    margin-bottom: 10px;
+}
+
+.Telefone{
+    font-weight: 700;
+    color: #13153d;
+    font-size: 15;
+    margin-bottom: 10px;
+}
+
+.NumeroTelefone{
+   
+    color: #13153d;
+    font-size: 15;
+    margin-bottom: 10px;
+}
+
+.fim{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.fim ul {
+    list-style: none;
+    display: flex;
+    border-top: 1px solid #CCC;
+    padding: 0;
+}
+
+.fim li{
+    margin-right: 15px;
+    margin-top: 5px;
+}
+
+footer{
+    display: flex;
+   justify-content: center;
+}
+
+.foooter{
+    width: 990px;
+    background-color: rgb(233, 227, 227);
+    border-top: 1px solid #CCC;
+    color: rgb(114, 111, 111);
+}
+
+
+
